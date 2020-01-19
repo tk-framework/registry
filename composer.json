@@ -1,0 +1,41 @@
+{
+	"name": "tk-framework/registry",
+	"description": "Provides a registry class to keep settings between different class instances.",
+	"homepage": "https://www.timonkreis.de",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Timon Kreis",
+			"email": "mail@timonkreis.de",
+			"homepage": "https://www.timonkreis.de",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"registry"
+	],
+	"require": {
+		"php": ">=7.2",
+
+		"tk-framework/pattern": "^1.0.1"
+	},
+	"require-dev": {
+		"tk-framework/test": "^1.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Registry\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Registry\\Tests\\": "tests/src"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.timonkreis.de"
+		}
+	]
+}
