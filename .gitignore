@@ -1,7 +1,7 @@
-**/.idea
-**/bower_components
-**/node_modules
-**/vendor
+.idea
+bower_components
+node_modules
+vendor
 
 /auth.json
 /bin
