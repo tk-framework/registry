@@ -31,11 +31,5 @@
 		"psr-4": {
 			"TimonKreis\\Framework\\Registry\\Tests\\": "tests/src"
 		}
-	},
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://composer.timonkreis.de"
-		}
-	]
+	}
 }
