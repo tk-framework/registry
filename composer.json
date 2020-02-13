@@ -2,7 +2,7 @@
 	"name": "tk-framework/registry",
 	"description": "Provides a registry class to keep settings between different class instances.",
 	"homepage": "https://www.timonkreis.de",
-	"license": "proprietary",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Timon Kreis",
