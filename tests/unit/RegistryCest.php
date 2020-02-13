@@ -17,7 +17,7 @@ class RegistryCest
 	/**
 	 * @param Framework\Test\UnitTester $I
 	 */
-	public function testGetterMethodWithDefaultValue(Framework\Test\UnitTester $I)
+	public function testGetterMethodWithDefaultValue(Framework\Test\UnitTester $I) : void
 	{
 		$I->assertNull(Framework\Registry\Registry::get('test'));
 		$I->assertEquals(__FUNCTION__, Framework\Registry\Registry::get('test', __FUNCTION__));
@@ -26,7 +26,7 @@ class RegistryCest
 	/**
 	 * @param Framework\Test\UnitTester $I
 	 */
-	public function testSetterMethod(Framework\Test\UnitTester $I)
+	public function testSetterMethod(Framework\Test\UnitTester $I) : void
 	{
 		Framework\Registry\Registry::set('test', __FUNCTION__);
 
@@ -37,7 +37,7 @@ class RegistryCest
 	/**
 	 * @param Framework\Test\UnitTester $I
 	 */
-	public function testIssetMethod(Framework\Test\UnitTester $I)
+	public function testIssetMethod(Framework\Test\UnitTester $I) : void
 	{
 		$I->assertFalse(Framework\Registry\Registry::isset(__FUNCTION__));
 
@@ -49,7 +49,7 @@ class RegistryCest
 	/**
 	 * @param Framework\Test\UnitTester $I
 	 */
-	public function testUnsetMethod(Framework\Test\UnitTester $I)
+	public function testUnsetMethod(Framework\Test\UnitTester $I) : void
 	{
 		Framework\Registry\Registry::set(__FUNCTION__, __FUNCTION__);
 
@@ -63,7 +63,7 @@ class RegistryCest
 	/**
 	 * @param Framework\Test\UnitTester $I
 	 */
-	public function testResetMethod(Framework\Test\UnitTester $I)
+	public function testResetMethod(Framework\Test\UnitTester $I) : void
 	{
 		$key1 = __FUNCTION__ . '1';
 		$key2 = __FUNCTION__ . '2';
